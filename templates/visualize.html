@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Visualization</h1>
+    <table border="1">
+      <tr>
+        <th>x</th>
+        <th>y</th>
+      </tr>
+      {% for x, y in zip(X, y) %}
+      <tr>
+        <td>{{ x }}</td>
+        <td>{{ y }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
