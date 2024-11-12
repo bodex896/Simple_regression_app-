@@ -12,7 +12,7 @@ Installation
 
 1. Clone the repository: git clone https://github.com/bodex896/Simple_regression_app-.git
 2. Install dependencies: pip install -r requirements.txt
-3. Run the app: `python test4.py
+3. Run the app: python test4.py
 
 Usage
 
